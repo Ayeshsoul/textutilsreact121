@@ -51,7 +51,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/textutilsreact121">
         <Navbar
           title="TextUtils"
           mode={mode}
@@ -66,7 +66,7 @@ function App() {
           </Routes>
           <Routes>
             <Route
-              exact path="/"
+              exact path="/textutilsreact121"
               element={
                 <TextForm
                   showAlert={showAlert}
